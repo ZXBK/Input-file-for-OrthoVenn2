@@ -7,7 +7,8 @@ Transfer Orthogroups(OG) files from OrthoFinder into OrthoVenn2 ClusterVenn to d
 ### Note:
 - Required R packages: **data.table & plyr** 
 - Directory permission should be changed for creating new files
-- 
+
+
 ### Usage:
 Rscript Trans.R [Path to OGs] [Output File name] [Raw Name1] [New Name2] [Raw Name2] [New Name2] ...
 
