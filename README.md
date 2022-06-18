@@ -9,7 +9,7 @@ Transfer Orthogroups(OG) files from OrthoFinder into OrthoVenn2 ClusterVenn to d
 - Directory permission should be changed for creating new files
 - 
 ### Usage:
-Rscript Trans.R [file of Example] [Output File name] [Raw Name1] [New Name2] [Raw Name2] [New Name2] ...
+Rscript Trans.R [Path to OGs] [Output File name] [Raw Name1] [New Name2] [Raw Name2] [New Name2] ...
 
 ex:
-Rscript Trans.R /Path/to/Example Name_of_output MRO Mr XP_0180 Ha XP_02 Lv LOCUS Mj maker Mn
+Rscript Trans.R /Example_file FileName MRO Mr XP_0180 Ha XP_02 Lv LOCUS Mj maker Mn
