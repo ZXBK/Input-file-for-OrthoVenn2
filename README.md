@@ -5,4 +5,4 @@ Transfer Orthogroups(OG) files from OrthoFinder into OrthoVenn2 ClusterVenn to d
 ## OrthoVenn2 : https://orthovenn2.bioinfotoolkits.net/home
 
 ### Note:
-Required: R packages-> data.table,plyr 
+Required R packages: **data.table & plyr** 
