@@ -16,7 +16,7 @@ docker exec -it NameIt bash
 nohup orthofinder -f /in/ -t 20 -a 20 -M msa &
 ```
 - faa should be in directory: /in 
-- The OG files will be in: /in/OrthoFinder/Results_Oct04/Orthogroup_Sequences/
+- The OGs file included more than two sequences(accroding to OGs definition) will be stored in: /in/OrthoFinder/Results_Oct04/MultipleSequenceAlignments/  (those OG...fa)
 
 ---
 
@@ -26,4 +26,5 @@ Rscript Trans.R /Example_file OutPutFile MRO Mr XP_0180 Ha XP_02 Lv LOCUS Mj mak
 ```
 - OutPutFile will be in /Example_file/
 - Using "ClusterVenn" funciton on [OrthoVenn2](https://orthovenn2.bioinfotoolkits.net/cluster-venn) and upload OutPutFile
-- "Raw Name" and "New Name" column is mainly for demand from OrthoVenn2 format
+- "Raw Name" is the protein name(start with ">") from faa
+- "New Name" will be the name show on OrthoVenn2 result 
